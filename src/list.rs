@@ -84,6 +84,7 @@ impl List {
             Region::Kalos => 650..=721,
             Region::Alola => 722..=809,
             Region::Galar => 810..=905,
+            Region::Paldea => 906..=1028,
         };
 
         let idx = rand::random_range(region);
