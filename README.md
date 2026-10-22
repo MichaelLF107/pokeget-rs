@@ -70,7 +70,7 @@ yay -S pokeget
 You can also clone the repository and compile manually by doing:
 
 ```sh
-git clone --recurse-submodules https://github.com/talwat/pokeget-rs.git
+git clone --recurse-submodules https://github.com/MichaelLF107/pokeget-rs.git
 cd pokeget-rs
 cargo build --release
 mv target/release/pokeget ~/.local/bin
